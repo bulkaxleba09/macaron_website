@@ -31,6 +31,8 @@ const Card3: NextPage<Card3Type> = ({ className = "" }) => {
           >{`Собрать набор макарон с уникальным дизайном. `}</div>
         </div>
       </button>
+
+      
       <Card1
         bgCard2="bg-card-4@2x.png"
         icCard2="ic-card-4.svg"

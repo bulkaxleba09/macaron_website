@@ -40,14 +40,14 @@ const Card1: NextPage<Card1Type> = ({
           className={styles.icCard2Icon}
           loading="lazy"
           alt=""
-          src="icCard2.svg"
+          src="ic-card-2.svg"
         />
       </div>
       <div className={styles.card2Inner}>
         <div className={styles.parent}>
           <h3 className={styles.h3}>{prop}</h3>
           <div className={styles.iconLinks}>
-            <img className={styles.vectorIcon} alt="" src="vector.svg" />
+            <img className={styles.vectorIcon} alt="" src="vector-8.svg" />
           </div>
         </div>
       </div>
