@@ -11,7 +11,7 @@ const IcLogoIcon: NextPage<IcLogoIconType> = ({ className = "" }) => {
       className={[styles.icLogoIcon, className].join(" ")}
       loading="lazy"
       alt=""
-      src="/ic-logo.svg"
+      src="ic-logo.svg"
     />
   );
 };

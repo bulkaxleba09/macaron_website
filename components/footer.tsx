@@ -18,7 +18,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                   className={styles.icAdv11Icon}
                   loading="lazy"
                   alt=""
-                  src="/ic-adv-11.svg"
+                  src="ic-adv-11.svg"
                 />
               </div>
               <div className={styles.div}>
@@ -32,7 +32,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                   className={styles.iconAdv2}
                   loading="lazy"
                   alt=""
-                  src="/icon_adv_2.svg"
+                  src="icon_adv_2.svg"
                 />
               </div>
               <div className={styles.div1}>
@@ -45,7 +45,7 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                 <img
                   className={styles.vectorIcon}
                   alt=""
-                  src="/vector-13.svg"
+                  src="vector-13.svg"
                 />
               </div>
               <div className={styles.div2}>
@@ -105,19 +105,19 @@ const Footer: NextPage<FooterType> = ({ className = "" }) => {
                 className={styles.instIcon}
                 loading="lazy"
                 alt=""
-                src="/inst.svg"
+                src="inst.svg"
               />
               <img
                 className={styles.facebookIcon}
                 loading="lazy"
                 alt=""
-                src="/facebook.svg"
+                src="facebook.svg"
               />
               <img
                 className={styles.vkIcon}
                 loading="lazy"
                 alt=""
-                src="/vk.svg"
+                src="vk.svg"
               />
             </div>
           </div>

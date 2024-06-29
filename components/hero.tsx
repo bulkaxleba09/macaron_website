@@ -9,12 +9,12 @@ export type HeroType = {
 const Hero: NextPage<HeroType> = ({ className = "" }) => {
   return (
     <section className={[styles.hero, className].join(" ")}>
-      <img className={styles.bgHeroIcon} alt="" src="/bg-hero@2x.png" />
+      <img className={styles.bgHeroIcon} alt="" src="bg-hero@2x.png" />
       <img
         className={styles.imgHeroIcon}
         loading="lazy"
         alt=""
-        src="/img-hero@2x.png"
+        src="img-hero@2x.png"
       />
       <div className={styles.heroInner}>
         <div className={styles.frameParent}>

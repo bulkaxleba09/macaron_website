@@ -20,7 +20,7 @@ const Gifts: NextPage<GiftsType> = ({ className = "" }) => {
               className={styles.imgGift1Icon}
               loading="lazy"
               alt=""
-              src="/img-gift-1@2x.png"
+              src="img-gift-1@2x.png"
             />
             <div className={styles.giftInfoContainer}>
               <div className={styles.giftTitlesContainer}>
@@ -49,7 +49,7 @@ const Gifts: NextPage<GiftsType> = ({ className = "" }) => {
                         <img
                           className={styles.fifthGiftAddToCartIconCoChild}
                           alt=""
-                          src="/group-3-1.svg"
+                          src="group-3-1.svg"
                         />
                       </div>
                       <div className={styles.fifthGiftAddToCartButton}>
@@ -62,11 +62,11 @@ const Gifts: NextPage<GiftsType> = ({ className = "" }) => {
             </div>
           </div>
           <Gift
-            imgGift2="/img-gift-2@2x.png"
+            imgGift2="img-gift-2@2x.png"
             prop="Красота спасёт мир "
             prop1="Набор 16 шт. Вкусы: клубника - базилик, кокос, голубой сыр, пармезан"
             prop2="750 руб"
-            group3="/group-3-1.svg"
+            group3="group-3-1.svg"
           />
           <div className={styles.gift3}>
             <div className={styles.bgGift3} />
@@ -74,7 +74,7 @@ const Gifts: NextPage<GiftsType> = ({ className = "" }) => {
               className={styles.ingGift3Icon}
               loading="lazy"
               alt=""
-              src="/ing-gift-3@2x.png"
+              src="ing-gift-3@2x.png"
             />
             <div className={styles.gift3Inner}>
               <div className={styles.parent}>
@@ -99,7 +99,7 @@ const Gifts: NextPage<GiftsType> = ({ className = "" }) => {
                       <img
                         className={styles.sixthGiftAddToCartIconCoChild}
                         alt=""
-                        src="/group-3-1.svg"
+                        src="group-3-1.svg"
                       />
                     </div>
                     <div className={styles.sixthGiftAddToCartButton}>
@@ -111,18 +111,18 @@ const Gifts: NextPage<GiftsType> = ({ className = "" }) => {
             </div>
           </div>
           <Gift
-            imgGift2="/ing-gift-4@2x.png"
+            imgGift2="ing-gift-4@2x.png"
             prop="Набор на 9"
             prop1="Набор из 9 штук в квадратной коробке. Вкусы: шоколад, фисташка, вишня"
             prop2="950 руб"
-            group3="/group-3-1.svg"
+            group3="group-3-1.svg"
           />
           <Gift
-            imgGift2="/ing-gift-5@2x.png"
+            imgGift2="ing-gift-5@2x.png"
             prop="Набор на 16"
             prop1="Набор 16 шт. Вкусы: соленая карамель, голубой сыр, пармезан, шоколад "
             prop2="1500 руб"
-            group3="/group-3-1.svg"
+            group3="group-3-1.svg"
           />
           <div className={styles.gift6}>
             <div className={styles.bgGift6} />
@@ -130,7 +130,7 @@ const Gifts: NextPage<GiftsType> = ({ className = "" }) => {
               className={styles.ingGift6Icon}
               loading="lazy"
               alt=""
-              src="/ing-gift-3@2x.png"
+              src="ing-gift-3@2x.png"
             />
             <div className={styles.frameParent}>
               <div className={styles.wrapper}>
@@ -160,7 +160,7 @@ const Gifts: NextPage<GiftsType> = ({ className = "" }) => {
                           <img
                             className={styles.frameInner}
                             alt=""
-                            src="/group-3-1.svg"
+                            src="group-3-1.svg"
                           />
                         </div>
                         <div className={styles.wrapper1}>

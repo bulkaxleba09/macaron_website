@@ -20,7 +20,7 @@ const Holiday: NextPage<HolidayType> = ({ className = "" }) => {
               className={styles.holidaysMacaronIcon}
               loading="lazy"
               alt=""
-              src="/holidays-macaron@2x.png"
+              src="holidays-macaron@2x.png"
             />
           </div>
           <div className={styles.holidaysList}>

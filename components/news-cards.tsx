@@ -13,19 +13,19 @@ const NewsCards: NextPage<NewsCardsType> = ({ className = "" }) => {
         <div className={styles.newsBlock}>
           <div className={styles.news}>
             <News
-              newsUmg1="/news-umg-1@2x.png"
+              newsUmg1="news-umg-1@2x.png"
               emptyNewsDescription="25.02.2023"
               prop="Скоро главный праздник весны!"
               prop1="Девушки любят, когда вкусно, красиво и натурально. Смотрите больше наборов с десертами ручной работы"
             />
             <News
-              newsUmg1="/news-umg-2@2x.png"
+              newsUmg1="news-umg-2@2x.png"
               emptyNewsDescription="17.02.2023"
               prop="Конкурс на 23 февраля!"
               prop1="День Защитника Отечества уже совсем скоро! Порадуйте своего сладкоежку с помощью наборов от МакаронШоп!"
             />
             <News
-              newsUmg1="/news-umg-3@2x.png"
+              newsUmg1="news-umg-3@2x.png"
               emptyNewsDescription="11.02.2023"
               prop="Экспресс-конкурс ко дню Святого Валентина"
               prop1="Подарок уже через 2 дняДень всех влюблённых не за горами. Расскажи о своих чувствах с помощью сладкой валентинки от МакаронШоп"

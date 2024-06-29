@@ -8,13 +8,13 @@ export type IcPromoType = {
 const IcPromo: NextPage<IcPromoType> = ({ className = "" }) => {
   return (
     <div className={[styles.icPromo, className].join(" ")}>
-      <img className={styles.flowerIcon} alt="" src="/flower.svg" />
+      <img className={styles.flowerIcon} alt="" src="flower.svg" />
       <div className={styles.div}>
         <img
           className={styles.vectorIcon}
           loading="lazy"
           alt=""
-          src="/vector.svg"
+          src="vector.svg"
         />
         <b className={styles.b}>100%</b>
       </div>

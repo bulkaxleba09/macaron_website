@@ -22,7 +22,7 @@ const News: NextPage<NewsType> = ({
         className={styles.newsUmg1Icon}
         loading="lazy"
         alt=""
-        src={newsUmg1}
+        src="newsUmg1.svg"
       />
       <div className={styles.newsText1}>
         <div className={styles.emptyNewsDescription}>

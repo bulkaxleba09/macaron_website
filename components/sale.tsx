@@ -24,7 +24,7 @@ const Sale: NextPage<SaleType> = ({ className = "" }) => {
                     <img
                       className={styles.saleImg1Icon}
                       alt=""
-                      src="/sale-img-1@2x.png"
+                      src="sale-img-1@2x.png"
                     />
                     <div className={styles.flagSale1}>
                       <div className={styles.wrapper}>
@@ -34,7 +34,7 @@ const Sale: NextPage<SaleType> = ({ className = "" }) => {
                         className={styles.saleFlagIcon}
                         loading="lazy"
                         alt=""
-                        src="/vector-21.svg"
+                        src="vector-21.svg"
                       />
                     </div>
                   </div>
@@ -51,7 +51,7 @@ const Sale: NextPage<SaleType> = ({ className = "" }) => {
                   <img
                     className={styles.imgSale2Icon}
                     alt=""
-                    src="/img-sale-2@2x.png"
+                    src="img-sale-2@2x.png"
                   />
                   <div className={styles.container}>
                     <div className={styles.div2}>НОВИНКА</div>
@@ -59,7 +59,7 @@ const Sale: NextPage<SaleType> = ({ className = "" }) => {
                   <img
                     className={styles.secondSaleFlagIcons}
                     alt=""
-                    src="/vector-2-1.svg"
+                    src="vector-2-1.svg"
                   />
                 </div>
                 <div className={styles.textSale2}>
@@ -71,18 +71,18 @@ const Sale: NextPage<SaleType> = ({ className = "" }) => {
             </div>
             <div className={styles.sale34}>
               <Asle
-                imgSale3="/img-sale-3@2x.png"
+                imgSale3="img-sale-3@2x.png"
                 prop="НОВИНКА"
                 prop1="Аппетитные конфеты "
                 prop2="на основе миндального печенья и крема"
-                vector2="/vector-2-1.svg"
+                vector2="vector-2-1.svg"
               />
               <Asle
-                imgSale3="/img-sale-4@2x.png"
+                imgSale3="img-sale-4@2x.png"
                 prop="САХАРНАЯ НОВИНКА"
                 prop1="Карамель на палочке"
                 prop2="из натуральных ингредиентов"
-                vector2="/vector-2-1.svg"
+                vector2="vector-2-1.svg"
               />
             </div>
           </div>

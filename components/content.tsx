@@ -14,7 +14,7 @@ const Content: NextPage<ContentType> = ({ className = "" }) => {
           <img
             className={styles.icAroowLeftIcon}
             alt=""
-            src="/ic-aroow-left.svg"
+            src="ic-aroow-left.svg"
           />
         </div>
         <div className={styles.promoImageWrapper}>
@@ -29,7 +29,7 @@ const Content: NextPage<ContentType> = ({ className = "" }) => {
           <img
             className={styles.icArrowRightIcon}
             alt=""
-            src="/ic-arrow-right.svg"
+            src="ic-arrow-right.svg"
           />
         </div>
       </header>
@@ -45,13 +45,13 @@ const Content: NextPage<ContentType> = ({ className = "" }) => {
         <button className={styles.placeParent}>
           <div className={styles.place}>
             <div className={styles.locationBackground} />
-            <img className={styles.locationIcon} alt="" src="/vector-1.svg" />
+            <img className={styles.locationIcon} alt="" src="vector-1.svg" />
           </div>
           <div className={styles.container}>
             <div className={styles.div2}>Санкт-Петербург</div>
           </div>
           <div className={styles.phoneWrapper}>
-            <img className={styles.phoneIcon} alt="" src="/vector-2.svg" />
+            <img className={styles.phoneIcon} alt="" src="vector-2.svg" />
           </div>
         </button>
         <a className={styles.phoneParent} href="tel:+89996975425">
@@ -59,7 +59,7 @@ const Content: NextPage<ContentType> = ({ className = "" }) => {
             className={styles.phoneIcon1}
             loading="lazy"
             alt=""
-            src="/phone.svg"
+            src="phone.svg"
           />
             <div className={styles.placeholder}>8 812 309-82-88</div>
         </a>
@@ -69,7 +69,7 @@ const Content: NextPage<ContentType> = ({ className = "" }) => {
               className={styles.bagIcon}
               loading="lazy"
               alt=""
-              src="/bag.svg"
+              src="bag.svg"
             />
             <div className={styles.ellipseParent}>
               <div className={styles.frameChild} />
@@ -86,19 +86,19 @@ const Content: NextPage<ContentType> = ({ className = "" }) => {
             <img
               className={styles.socialMediaLogos}
               alt=""
-              src="/vector-3.svg"
+              src="vector-3.svg"
             />
           </div>
           <div className={styles.vk}>
             <a className={styles.vkChild} />
-            <img className={styles.vectorIcon} alt="" src="/vector-4.svg" />
+            <img className={styles.vectorIcon} alt="" src="vector-4.svg" />
           </div>
           <div className={styles.ok}>
             <img
               className={styles.okIcon}
               alt=""
               loading="lazy"
-              src="/ok.svg"
+              src="ok.svg"
             />
           </div>
         </div>

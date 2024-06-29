@@ -20,7 +20,7 @@ const Meni: NextPage<MeniType> = ({ className = "" }) => {
           </div>
         </a>
       </div>
-      <MenuItem prop="подарочные наборы" vector="/vector-5.svg" />
+      <MenuItem prop="подарочные наборы" vector="vector-5.svg" />
       <div className={styles.wrapper}>
         <a className={styles.a}>Собрать набор</a>
       </div>
@@ -30,10 +30,10 @@ const Meni: NextPage<MeniType> = ({ className = "" }) => {
       <div className={styles.container}>
         <a className={styles.a2}>Создать дизайн</a>
       </div>
-      <MenuItem prop="КОМПАНИЯМ" vector="/vector-5.svg" frameDivWidth="unset" />
+      <MenuItem prop="КОМПАНИЯМ" vector="vector-5.svg" frameDivWidth="unset" />
       <MenuItem
         prop="ВЕСЬ КАТАЛОГ"
-        vector="/vector-5.svg"
+        vector="vector-5.svg"
         frameDivWidth="unset"
       />
     </header>

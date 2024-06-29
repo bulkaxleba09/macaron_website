@@ -8,7 +8,7 @@ export type IcCartType = {
 const IcCart: NextPage<IcCartType> = ({ className = "" }) => {
   return (
     <button className={[styles.icCart, className].join(" ")}>
-      <img className={styles.icCartChild} alt="" src="/group-3.svg" />
+      <img className={styles.icCartChild} alt="" src="group-3.svg" />
       <div className={styles.locationPin} />
       <a className={styles.cityName}>4</a>
     </button>

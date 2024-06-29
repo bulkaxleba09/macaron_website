@@ -34,20 +34,20 @@ const Card1: NextPage<Card1Type> = ({
 
   return (
     <button className={[styles.card2, className].join(" ")} style={card2Style}>
-      <img className={styles.bgCard2Icon} alt="" src={bgCard2} />
+      <img className={styles.bgCard2Icon} alt="" src="bgCard2.png" />
       <div className={styles.icCard2Wrapper}>
         <img
           className={styles.icCard2Icon}
           loading="lazy"
           alt=""
-          src={icCard2}
+          src="icCard2.svg"
         />
       </div>
       <div className={styles.card2Inner}>
         <div className={styles.parent}>
           <h3 className={styles.h3}>{prop}</h3>
           <div className={styles.iconLinks}>
-            <img className={styles.vectorIcon} alt="" src={vector} />
+            <img className={styles.vectorIcon} alt="" src="vector.svg" />
           </div>
         </div>
       </div>

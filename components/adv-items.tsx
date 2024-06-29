@@ -13,12 +13,12 @@ const AdvItems: NextPage<AdvItemsType> = ({ className = "" }) => {
       <div className={styles.adv}>
         <div className={styles.adv12}>
           <Adv
-            imgAdv1="/img-adv-1@2x.png"
+            imgAdv1="img-adv-1@2x.png"
             prop="Лучшие ингрединты"
             prop1="Что-то про суперкачество, лучших поваров, свежесть и т.д."
           />
           <Adv1
-            imgAdv1="/img-adv-2@2x.png"
+            imgAdv1="img-adv-2@2x.png"
             prop="Упаковка"
             prop1="Что-то про суперкоробочки и бантики и бла бла бла"
           />
@@ -29,7 +29,7 @@ const AdvItems: NextPage<AdvItemsType> = ({ className = "" }) => {
               className={styles.imgAdv3Icon}
               loading="lazy"
               alt=""
-              src="/img-adv-3@2x.png"
+              src="img-adv-3@2x.png"
             />
             <div className={styles.textAdv3}>
               <div className={styles.div}>Получение в день заказа</div>
@@ -43,7 +43,7 @@ const AdvItems: NextPage<AdvItemsType> = ({ className = "" }) => {
               className={styles.imgAdv4Icon}
               loading="lazy"
               alt=""
-              src="/img-adv-4@2x.png"
+              src="img-adv-4@2x.png"
             />
             <div className={styles.textAdv5}>
               <div className={styles.div2}>Анонимная доставка</div>

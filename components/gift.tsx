@@ -25,7 +25,7 @@ const Gift: NextPage<GiftType> = ({
         className={styles.imgGift2Icon}
         loading="lazy"
         alt=""
-        src={imgGift2}
+        src="imgGift2.png"
       />
       <div className={styles.frameParent}>
         <div className={styles.wrapper}>
@@ -50,7 +50,7 @@ const Gift: NextPage<GiftType> = ({
                     <img
                       className={styles.addToCartIconChild}
                       alt=""
-                      src={group3}
+                      src="group3.svg"
                     />
                   </div>
                   <div className={styles.addToCartButton}>
