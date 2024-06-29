@@ -40,7 +40,7 @@ const Card1: NextPage<Card1Type> = ({
           className={styles.icCard2Icon}
           loading="lazy"
           alt=""
-          src="ic-card-2.svg"
+          src={icCard2}
         />
       </div>
       <div className={styles.card2Inner}>

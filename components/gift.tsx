@@ -25,7 +25,7 @@ const Gift: NextPage<GiftType> = ({
         className={styles.imgGift2Icon}
         loading="lazy"
         alt=""
-        src="imgGift2.png"
+        src={imgGift2}
       />
       <div className={styles.frameParent}>
         <div className={styles.wrapper}>

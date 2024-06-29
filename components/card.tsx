@@ -39,7 +39,7 @@ const Card: NextPage<CardType> = ({
           className={styles.icCard1Icon}
           loading="lazy"
           alt=""
-          src="ic-card-1.svg"
+          src={icCard1}
         />
       </div>
       <div className={styles.card1Inner}>

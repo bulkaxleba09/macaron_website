@@ -21,11 +21,11 @@ const Asle: NextPage<AsleType> = ({
   return (
     <div className={[styles.asle3, className].join(" ")}>
       <div className={styles.imgSale3Parent}>
-        <img className={styles.imgSale3Icon} alt="" src= "imgSale3.png" />
+        <img className={styles.imgSale3Icon} alt="" src= {imgSale3} />
         <div className={styles.wrapper}>
           <div className={styles.div}>{prop}</div>
         </div>
-        <img className={styles.frameChild} alt="" src= "vector2.svg" />
+        <img className={styles.frameChild} alt="" src= {vector2} />
       </div>
       <div className={styles.textSale3}>
         <div className={styles.div1}>
