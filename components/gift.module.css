@@ -1,0 +1,205 @@
+.bgGift2 {
+  align-self: stretch;
+  height: 459px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color2);
+  border: 1px solid var(--ededf0);
+  box-sizing: border-box;
+  display: none;
+}
+.div,
+.imgGift2Icon {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.imgGift2Icon {
+  align-self: stretch;
+  height: 300px;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div {
+  flex: 1;
+  font-weight: 600;
+  display: inline-block;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.div1 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.div2,
+.priceContainerChild {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.priceContainerChild {
+  height: 1px;
+  border-top: 1px solid var(--ededf0);
+  box-sizing: border-box;
+}
+.div2 {
+  font-weight: 600;
+}
+.priceWrapper {
+  width: 127px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-5) 0 0;
+  box-sizing: border-box;
+}
+.addToCartDividerChild {
+  width: 1px;
+  height: 50px;
+  position: relative;
+  border-right: 1px solid var(--ededf0);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.addToCartDivider {
+  height: 49px;
+  width: 11.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.addToCartIconChild {
+  width: 13.3px;
+  height: 19px;
+  position: relative;
+  z-index: 1;
+}
+.addToCartIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+}
+.div3 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--montserrat-semi-18);
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 77px;
+  z-index: 1;
+}
+.addToCartButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+}
+.cartButtonWrapper,
+.lastThreeDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.lastThreeDescription {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  justify-content: flex-start;
+  gap: var(--gap-xs-7);
+}
+.cartButtonWrapper {
+  flex: 1;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.cartButtonContainer,
+.priceContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cartButtonContainer {
+  flex-direction: row;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+}
+.priceContainer {
+  flex-direction: column;
+  font-size: var(--montserrat-semi-18-size);
+  color: var(--color1);
+  font-family: var(--montserrat-semi-18);
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-2xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-proxima-nova);
+}
+.frameGroup,
+.frameParent,
+.gift2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-2xs);
+}
+.gift2 {
+  width: 370px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color2);
+  border: 1px solid var(--ededf0);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  min-width: 351px;
+  text-align: left;
+  font-size: var(--montserrat-semi-18-size);
+  color: var(--color);
+  font-family: var(--montserrat-semi-18);
+}
+@media screen and (max-width: 450px) {
+  .cartButtonWrapper {
+    flex-wrap: wrap;
+  }
+}

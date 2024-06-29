@@ -1,0 +1,48 @@
+.flowerIcon,
+.vectorIcon {
+  position: absolute;
+  height: 97.75%;
+  width: 53.01%;
+  top: 0;
+  right: 46.99%;
+  bottom: 2.25%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+.b,
+.div {
+  position: absolute;
+  z-index: 1;
+}
+.b {
+  width: 77.88%;
+  top: 5.88%;
+  left: 12.19%;
+  display: inline-block;
+  min-width: 34.5px;
+}
+.div {
+  height: 54.66%;
+  width: 74.08%;
+  top: 45.34%;
+  right: 0;
+  bottom: 0;
+  left: 25.92%;
+}
+.icPromo {
+  height: 31.1px;
+  width: 59.8px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-merriweather);
+}

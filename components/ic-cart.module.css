@@ -1,0 +1,47 @@
+.icCartChild {
+  position: absolute;
+  height: 80%;
+  width: 66.67%;
+  top: 0;
+  right: 33.33%;
+  bottom: 20%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.locationPin {
+  position: absolute;
+  height: 52%;
+  width: 61.84%;
+  top: 48%;
+  right: 0;
+  bottom: 0;
+  left: 38.16%;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  z-index: 1;
+}
+.cityName {
+  text-decoration: none;
+  position: absolute;
+  width: 28.99%;
+  top: 52%;
+  left: 52.17%;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-proxima-nova);
+  color: var(--color2);
+  text-align: center;
+  display: inline-block;
+  min-width: 6px;
+  z-index: 2;
+}
+.icCart {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+}

@@ -1,0 +1,50 @@
+.imgAdv2Icon {
+  align-self: stretch;
+  height: 271px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.div,
+.div1 {
+  display: inline-block;
+}
+.div {
+  width: 91px;
+  position: relative;
+  font-weight: 600;
+  min-width: 91px;
+}
+.div1 {
+  align-self: stretch;
+  height: 72px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-proxima-nova);
+  color: var(--color-gray-400);
+  flex-shrink: 0;
+}
+.adv2,
+.textAdv2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textAdv2 {
+  align-self: stretch;
+  height: 101px;
+  flex-shrink: 0;
+  gap: var(--gap-2xs);
+}
+.adv2 {
+  flex: 1;
+  gap: var(--gap-10xl);
+  min-width: 176px;
+  text-align: left;
+  font-size: var(--montserrat-semi-18-size);
+  color: var(--color);
+  font-family: var(--montserrat-semi-18);
+}

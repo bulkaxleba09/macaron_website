@@ -1,0 +1,293 @@
+.h1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 105px;
+}
+.actionTitleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-smi);
+}
+.saleImg1Icon {
+  height: 270px;
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  object-fit: cover;
+  display: none;
+}
+.div {
+  height: 11px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  background-color: var(--color-lightskyblue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 var(--padding-8xs-5) var(--padding-6xs);
+  white-space: nowrap;
+}
+.saleFlagIcon {
+  height: 20px;
+  width: 16px;
+  position: relative;
+  min-height: 20px;
+}
+.flagSale1,
+.itemDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flagSale1 {
+  z-index: 1;
+}
+.itemDetails {
+  align-self: stretch;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  padding: var(--padding-mini) 0 var(--padding-216xl);
+  background-image: url(/sale-img-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.p {
+  white-space: pre-wrap;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.div1 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.itemContent,
+.sale1,
+.textSale1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textSale1 {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-8xs) var(--br-8xs);
+  background-color: var(--color-lightskyblue);
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-11xl);
+  font-family: var(--montserrat-semi-18);
+}
+.itemContent,
+.sale1 {
+  flex: 1;
+  flex-direction: column;
+}
+.sale1 {
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--ededf0);
+  box-sizing: border-box;
+  flex-direction: row;
+  min-width: 177px;
+}
+.imgSale2Icon {
+  height: 270px;
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  object-fit: cover;
+  display: none;
+}
+.div2 {
+  height: 11px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 78px;
+}
+.container {
+  background-color: var(--color-crimson-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 var(--padding-8xs-5) var(--padding-5xs);
+  z-index: 1;
+}
+.secondSaleFlagIcons {
+  height: 20px;
+  width: 16px;
+  position: relative;
+  min-height: 20px;
+  z-index: 1;
+}
+.secondSaleItem {
+  align-self: stretch;
+  border-radius: var(--br-8xs) var(--br-8xs) 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 var(--padding-216xl);
+  background-image: url(/img-sale-2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.div3 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.sale2,
+.textSale2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textSale2 {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-8xs) var(--br-8xs);
+  background-color: var(--color-crimson-100);
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-11xl);
+  font-family: var(--montserrat-semi-18);
+}
+.sale2 {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--ededf0);
+  box-sizing: border-box;
+  flex-direction: column;
+  min-width: 177px;
+}
+.sale,
+.sale12,
+.sale34,
+.salesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.sale12,
+.sale34 {
+  width: 570px;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.sale,
+.salesContainer {
+  box-sizing: border-box;
+}
+.sale {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 30px 28px;
+}
+.salesContainer {
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  font-size: var(--font-size-base);
+  color: var(--color2);
+  font-family: var(--font-proxima-nova);
+}
+.dots,
+.dots1,
+.dots2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color1);
+  width: 12px;
+  height: 12px;
+}
+.dots1,
+.dots2 {
+  left: 22px;
+  background-color: var(--color2);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.dots2 {
+  left: 44px;
+}
+.dotsNavigation {
+  width: 56px;
+  height: 12px;
+  position: relative;
+}
+.actionTitleWrapper {
+  width: 1171px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+}
+.actionTitleWrapperWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-31xl) var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color);
+  font-family: var(--montserrat-semi-18);
+}
+@media screen and (max-width: 750px) {
+  .h1 {
+    font-size: var(--font-size-5xl);
+  }
+  .sale12,
+  .sale34 {
+    flex-wrap: wrap;
+  }
+  .actionTitleWrapper {
+    gap: var(--gap-lg);
+  }
+  .actionTitleWrapperWrapper {
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: var(--montserrat-semi-18-size);
+  }
+  .sale1,
+  .sale2 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .sale12 {
+    flex-direction: column;
+  }
+  .sale34 {
+    display: none;
+  }
+}

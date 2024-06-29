@@ -1,0 +1,121 @@
+.bgCard3Icon {
+  width: 570px;
+  height: 260px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.icCard3Icon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  z-index: 1;
+}
+.icCard3Wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.h3,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.h3 {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--montserrat-semi-18);
+  color: var(--color);
+  text-align: center;
+}
+.vectorIcon {
+  width: 16px;
+  height: 10.1px;
+  object-fit: contain;
+}
+.parent,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorWrapper {
+  flex-direction: column;
+  padding: var(--padding-6xs-9) 0 0;
+}
+.parent {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-proxima-nova);
+  color: var(--color);
+  text-align: center;
+  z-index: 1;
+}
+.card3,
+.card34,
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.wrapper {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.card3,
+.card34 {
+  align-self: stretch;
+}
+.card3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-25xl) var(--padding-xl) var(--padding-24xl);
+  background-color: transparent;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  background-image: url(/bg-card-3@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 370px;
+}
+.card34 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-12xl);
+}
+@media screen and (max-width: 750px) {
+  .card34 {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .icCard3Wrapper {
+    display: none;
+  }
+  .h3 {
+    font-size: var(--font-size-base);
+  }
+  .div {
+    display: none;
+  }
+  .card3 {
+    min-width: 100%;
+  }
+}

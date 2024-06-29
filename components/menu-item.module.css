@@ -1,0 +1,35 @@
+.div {
+  position: relative;
+  text-transform: uppercase;
+}
+.vectorIcon {
+  width: 8px;
+  height: 5px;
+  position: relative;
+  object-fit: contain;
+}
+.vectorWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.meniInner,
+.parent,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent {
+  text-decoration: none;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  color: inherit;
+}
+.meniInner {
+  flex-direction: column;
+  padding: var(--padding-34xl-6) 0 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  font-family: var(--font-proxima-nova);
+}

@@ -1,0 +1,160 @@
+.h1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.upcomingHolidaysTitleContai {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.holidaysMacaronIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.holidaysImageContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.b {
+  position: relative;
+}
+.p2,
+.p3,
+.p4 {
+  margin: 0;
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.p5,
+.p6,
+.p7 {
+  margin: 0;
+}
+.div1 {
+  position: relative;
+  font-weight: 600;
+}
+.p10,
+.p8,
+.p9 {
+  margin: 0;
+}
+.div2 {
+  position: relative;
+  font-weight: 600;
+}
+.p11,
+.p12,
+.p13 {
+  margin: 0;
+}
+.div3 {
+  position: relative;
+  font-weight: 600;
+}
+.p14,
+.p15 {
+  margin: 0;
+}
+.div4 {
+  position: relative;
+  font-weight: 600;
+}
+.holidaysList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.holidaysContainer,
+.upcomingHolidaysContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.holidaysContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-sm);
+}
+.upcomingHolidaysContent {
+  width: 1113px;
+  align-items: flex-end;
+  gap: var(--gap-9xl);
+}
+.upcomingHolidaysContentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-94xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color);
+  font-family: var(--montserrat-semi-18);
+}
+@media screen and (max-width: 1050px) {
+  .holidaysList {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 960px) {
+  .b,
+  .div,
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    font-size: var(--font-size-xs);
+  }
+}
+@media screen and (max-width: 750px) {
+  .h1 {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 600px) {
+  .upcomingHolidaysContent,
+  .upcomingHolidaysContentWrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h1 {
+    font-size: var(--montserrat-semi-18-size);
+  }
+  .upcomingHolidaysContentWrapper {
+    padding-bottom: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}

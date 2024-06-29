@@ -1,0 +1,55 @@
+.macaronshop {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+}
+.since2013 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 11px;
+  left: 186px;
+  border-top: 1.5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 30.5px;
+  height: 1.5px;
+}
+.frameItem {
+  left: 57px;
+}
+.since2013Parent {
+  align-self: stretch;
+  height: 20px;
+  position: relative;
+  font-size: var(--font-size-base);
+}
+.logoHero {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color);
+  font-family: var(--montserrat-semi-18);
+}
+@media screen and (max-width: 450px) {
+  .macaronshop {
+    font-size: var(--montserrat-semi-18-size);
+  }
+}

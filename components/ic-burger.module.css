@@ -1,0 +1,33 @@
+.icBurgerChild,
+.icBurgerInner,
+.icBurgerItem {
+  position: absolute;
+  height: 12.5%;
+  width: 107.58%;
+  top: -5.83%;
+  right: -4.04%;
+  bottom: 93.33%;
+  left: -3.54%;
+  border-top: 1.5px solid var(--color-black);
+  box-sizing: border-box;
+}
+.icBurgerInner,
+.icBurgerItem {
+  top: 44.17%;
+  bottom: 43.33%;
+}
+.icBurgerInner {
+  width: 67.17%;
+  top: 94.17%;
+  right: 36.36%;
+  bottom: -6.67%;
+}
+.icBurger {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 19.8px;
+  height: 12px;
+  position: relative;
+}

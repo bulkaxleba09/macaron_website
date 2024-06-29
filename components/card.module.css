@@ -1,0 +1,113 @@
+.bgCard1Icon {
+  width: 570px;
+  height: 260px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.icCard1Icon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  z-index: 1;
+}
+.icCard1Wrapper {
+  width: 387px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.h3,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.h3 {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--montserrat-semi-18);
+  color: var(--color);
+  text-align: center;
+}
+.vectorIcon {
+  width: 16px;
+  height: 10.1px;
+  object-fit: contain;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs-9) 0 0;
+}
+.card1Inner,
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.parent {
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.card1Inner {
+  width: 387px;
+  justify-content: center;
+  max-width: 100%;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.card1,
+.div {
+  max-width: 100%;
+}
+.div {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-proxima-nova);
+  color: var(--color);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.card1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-15xl) var(--padding-xl) var(--padding-15xl)
+    var(--padding-2xl);
+  background-color: transparent;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  background-image: url(/bg-card-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 370px;
+}
+@media screen and (max-width: 450px) {
+  .icCard1Wrapper {
+    display: none;
+  }
+  .h3 {
+    font-size: var(--font-size-base);
+  }
+  .div {
+    display: none;
+  }
+  .card1 {
+    min-width: 100%;
+  }
+}

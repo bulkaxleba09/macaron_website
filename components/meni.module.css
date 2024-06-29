@@ -1,0 +1,128 @@
+.div {
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 99px;
+}
+.discountBannerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color1);
+  width: 100%;
+  height: 100%;
+}
+.logoCount {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  display: inline-block;
+  width: 16px;
+  min-width: 16px;
+  z-index: 1;
+}
+.ellipseParent {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  font-size: var(--font-size-mini);
+  color: var(--color2);
+}
+.discountBannerContentParent,
+.meniInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.discountBannerContentParent {
+  text-decoration: none;
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  color: inherit;
+}
+.meniInner {
+  flex-direction: column;
+  padding: var(--padding-31xl-1) 0 0;
+}
+.a {
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  min-width: 110px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-34xl-6) 0 0;
+  text-align: left;
+}
+.a1,
+.a2,
+.icon {
+  text-decoration: none;
+}
+.icon {
+  height: 100%;
+  width: 100%;
+}
+.a1,
+.a2 {
+  position: relative;
+}
+.a1 {
+  height: 124.1px;
+  width: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.a2 {
+  text-transform: uppercase;
+  color: inherit;
+  display: inline-block;
+  min-width: 124px;
+}
+.container,
+.meni {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-34xl-6) 0 0;
+}
+.meni {
+  align-self: stretch;
+  background-color: var(--color2);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-lgi-9) var(--padding-xl) var(--padding-xl);
+  gap: var(--gap-11xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  font-family: var(--font-proxima-nova);
+}
+@media screen and (max-width: 1050px) {
+  .meni {
+    flex-wrap: wrap;
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 960px) {
+  .meni {
+    display: none;
+  }
+}
