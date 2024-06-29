@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Asle from "./asle";
 import styles from "./sale.module.css";
-import AsleCopy from "./asle copy";
+
 
 export type SaleType = {
   className?: string;
