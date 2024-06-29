@@ -32,7 +32,7 @@ const Frame: NextPage = () => {
               prop="Корпоративные подарки"
               prop1="От 85 руб за шт. С уникальным дизайном. "
               prop2="Приятный комплимент для коллег и партнеров"
-              propBackgroundImage="url('/bg-card-5@2x.png')"
+              propBackgroundImage="url('https://github.com/bulkaxleba09/macaron_website/blob/main/public/bg-card-5@2x.png?raw=true')"
               vector="/vector-8.svg"
             />
             <Card
@@ -41,7 +41,7 @@ const Frame: NextPage = () => {
               prop="Оптовые поставки"
               prop1="Предложение для кофеен, кафе, отелей и т.д."
               prop2="Посмотрите условия сотрудничества и отзывы."
-              propBackgroundImage="url('/bg-card-6@2x.png')"
+              propBackgroundImage="url('https://github.com/bulkaxleba09/macaron_website/blob/main/public/bg-card-6@2x.png?raw=true')"
               vector="/vector-8.svg"
             />
           </div>

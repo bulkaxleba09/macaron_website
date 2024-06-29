@@ -91,7 +91,7 @@
   justify-content: flex-start;
   box-sizing: border-box;
   gap: var(--gap-mini);
-  background-image: url(/bg-card-1@2x.png);
+  background-image: url(https://github.com/bulkaxleba09/macaron_website/blob/main/public/bg-card-1@2x.png?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

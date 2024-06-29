@@ -84,6 +84,7 @@ const Sale: NextPage<SaleType> = ({ className = "" }) => {
                 prop1="Карамель на палочке"
                 prop2="из натуральных ингредиентов"
                 vector2="vector-2-1.svg"
+                propBackgroundImage ="url('https://github.com/bulkaxleba09/macaron_website/blob/main/public/img-sale-4@2x.png?raw=true')"
               />
             </div>
           </div>

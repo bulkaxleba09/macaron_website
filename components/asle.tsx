@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { useMemo, type CSSProperties } from "react";
 import styles from "./asle.module.css";
 
 export type AsleType = {
@@ -8,7 +9,10 @@ export type AsleType = {
   prop1?: string;
   prop2?: string;
   vector2?: string;
+
+  propBackgroundImage?: CSSProperties["backgroundImage"];
 };
+
 
 const Asle: NextPage<AsleType> = ({
   className = "",
@@ -17,10 +21,17 @@ const Asle: NextPage<AsleType> = ({
   prop1,
   prop2,
   vector2,
+  propBackgroundImage,
 }) => {
+  const asle1Style: CSSProperties = useMemo(() => {
+    return {
+      backgroundImage: propBackgroundImage,
+    };
+  }, [propBackgroundImage]);
+
   return (
-    <div className={[styles.asle3, className].join(" ")}>
-      <div className={styles.imgSale3Parent}>
+    <div className={[styles.asle3, className].join(" ")} >
+      <div className={styles.imgSale3Parent} style={asle1Style}>
         <img className={styles.imgSale3Icon} alt="" src= {imgSale3} />
         <div className={styles.wrapper}>
           <div className={styles.div}>{prop}</div>
