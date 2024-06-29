@@ -61,7 +61,7 @@
   align-self: stretch;
   border-radius: var(--br-8xs) var(--br-8xs) 0 0;
   padding: var(--padding-mini) 0 var(--padding-216xl);
-  background-image: url(/sale-img-1@2x.png);
+  background-image: url(https://github.com/bulkaxleba09/macaron_website/blob/main/public/sale-img-1@2x.png?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -147,7 +147,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-mini) 0 var(--padding-216xl);
-  background-image: url(/img-sale-2@2x.png);
+  background-image: url(https://github.com/bulkaxleba09/macaron_website/blob/main/public/img-sale-2@2x.png?raw=true);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

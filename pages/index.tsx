@@ -28,7 +28,7 @@ const Frame: NextPage = () => {
           <div className={styles.card56}>
             <Card
               bgCard1="/bg-card-5@2x.png"
-              icCard1="/ic-card-5.svg"
+              icCard1="ic-card-5.svg"
               prop="Корпоративные подарки"
               prop1="От 85 руб за шт. С уникальным дизайном. "
               prop2="Приятный комплимент для коллег и партнеров"
@@ -37,7 +37,7 @@ const Frame: NextPage = () => {
             />
             <Card
               bgCard1="/bg-card-6@2x.png"
-              icCard1="/ic-card-6.svg"
+              icCard1="ic-card-6.svg"
               prop="Оптовые поставки"
               prop1="Предложение для кофеен, кафе, отелей и т.д."
               prop2="Посмотрите условия сотрудничества и отзывы."
